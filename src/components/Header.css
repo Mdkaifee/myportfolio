@@ -1,0 +1,40 @@
+/* frontend/src/components/Header.css */
+header {
+    position: sticky;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.8);  /* Transparent background */
+    color: white;
+    padding: 20px;
+    z-index: 100;
+    transition: background-color 0.3s;
+  }
+  
+  header.sticky {
+    background-color: #333;  /* Darken the background when scrolled */
+  }
+  
+  header .logo {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  header nav ul li {
+    margin-left: 20px;
+  }
+  
+  header nav ul li a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  
+  header nav ul li a:hover {
+    text-decoration: underline;
+  }
+  

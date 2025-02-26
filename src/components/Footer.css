@@ -1,0 +1,43 @@
+/* frontend/src/components/Footer.css */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+  font-size: 14px;
+}
+
+footer .social-links {
+  margin: 20px 0;
+}
+
+footer .social-links a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  transition: color 0.3s;
+}
+
+footer .social-links a:hover {
+  color: #4CAF50; /* Green color for hover */
+}
+
+footer .social-links a:focus {
+  outline: none;
+}
+
+footer .social-links a i {
+  font-size: 28px;
+  transition: transform 0.3s ease;
+}
+
+footer .social-links a:hover i {
+  transform: scale(1.1); /* Slight zoom on hover */
+}
+
+footer p {
+  font-size: 12px;
+  margin-top: 10px;
+  color: #bbb;  /* Lighter color for the copyright text */
+}

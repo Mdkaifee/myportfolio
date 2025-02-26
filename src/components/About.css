@@ -1,0 +1,15 @@
+/* frontend/src/components/About.css */
+.about {
+    padding: 40px;
+    background-color: #f4f4f4;
+  }
+  
+  .about h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 18px;
+  }
+  

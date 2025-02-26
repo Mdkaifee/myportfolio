@@ -1,0 +1,48 @@
+/* frontend/src/components/Projects.css */
+.projects {
+    padding: 60px 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .projects h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+  
+  .project-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .project-item {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s;
+  }
+  
+  .project-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .project-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .project-item p {
+    font-size: 18px;
+  }
+  
+  .project-item a {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+  
+  .project-item a:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,33 @@
+/* frontend/src/components/Hero.css */
+.hero {
+  background-image: url("https://images.pexels.com/photos/1421903/pexels-photo-1421903.jpeg"); /* Replace with a good image URL */
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 150px 20px;
+}
+
+.hero h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.hero button {
+  padding: 15px 30px;
+  font-size: 18px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.hero button:hover {
+  background-color: #45a049;
+}
