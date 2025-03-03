@@ -64,7 +64,19 @@ const Projects = () => {
             View Project
           </a>
         </div>
-       
+        <div className="project-item">
+          <h3>Shack App - React Native</h3>
+          <p>✅ Helps golfers and caddies book a game for golf play</p>
+          <p>✅ Find available tee times and connect with caddies</p>
+          <p>✅ Streamlined booking process and user-friendly interface</p>
+          <a
+            href="https://github.com/YourUsername/Shack-App"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Project
+          </a>
+        </div>
       </div>
     </section>
   );
