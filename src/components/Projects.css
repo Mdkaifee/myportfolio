@@ -1,48 +1,90 @@
 /* frontend/src/components/Projects.css */
+
 .projects {
-    padding: 60px 20px;
-    background-color: #f4f4f4;
-  }
-  
+  padding: 60px 20px;
+  background: url('https://www.example.com/your-image.jpg') center/cover no-repeat;
+  position: relative;
+  color: white; /* Text color should contrast with the background */
+}
+
+.projects::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4); /* Dark overlay */
+  z-index: -1; /* Ensure overlay stays behind content */
+}
+
+.projects h2 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 30px;
+  color: #fff; /* White text for the heading */
+  font-weight: 600;
+}
+
+.project-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.project-item {
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+  border: 1px solid #e0e0e0;
+}
+
+.project-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.project-item h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+  font-weight: 500;
+}
+
+.project-item p {
+  font-size: 18px;
+  margin: 5px 0;
+  color: #555;
+}
+
+.project-item a {
+  color: #4caf50;
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.project-item a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
   .projects h2 {
-    text-align: center;
-    font-size: 40px;
-    margin-bottom: 30px;
+    font-size: 32px;
   }
-  
-  .project-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 20px;
-  }
-  
+
   .project-item {
-    background-color: white;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    transition: transform 0.3s;
+    padding: 15px;
   }
-  
-  .project-item:hover {
-    transform: scale(1.05);
-  }
-  
+
   .project-item h3 {
-    font-size: 24px;
-    margin-bottom: 10px;
+    font-size: 20px;
   }
-  
+
   .project-item p {
-    font-size: 18px;
+    font-size: 16px;
   }
-  
-  .project-item a {
-    color: #4CAF50;
-    text-decoration: none;
-  }
-  
-  .project-item a:hover {
-    text-decoration: underline;
-  }
-  
+}
