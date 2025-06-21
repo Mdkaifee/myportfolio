@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './Contact.css';
 
 const Contact = () => {
@@ -29,10 +29,8 @@ const Contact = () => {
       if (result.isSuccess) {
         console.log('Email sent successfully:', result);
         setStatusMessage('Message sent successfully!');
-        
-        // Clear the form after successful submission
-        setEmail('');  // Clear the email field
-        setMessage('');  // Clear the message field
+        setEmail('');  
+        setMessage(''); 
       } else {
         console.log('Error sending email:', result.errorMessage);
         setStatusMessage('Failed to send message. Please try again.');

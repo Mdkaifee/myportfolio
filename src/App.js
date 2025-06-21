@@ -1,4 +1,3 @@
-// frontend/src/App.js
 import React, { useEffect } from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
