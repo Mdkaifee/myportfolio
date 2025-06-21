@@ -1,5 +1,3 @@
-/* frontend/src/components/About.css */
-
 .about {
   padding: 80px 20px;
   background-color: #f4f4f4;
@@ -7,11 +5,9 @@
   justify-content: center;
   align-items: center;
   height: auto;
-  /* min-height: 100vh;  */
 }
 
 .about-container {
-  /* max-width: 900px; */
   text-align: center;
   background-color: #ffffff;
   padding: 40px;
@@ -22,7 +18,6 @@
 .about h2 {
   font-size: 36px;
   font-weight: 600;
-  /* margin-bottom: 20px; */
   color: #333;
 }
 
@@ -36,9 +31,8 @@
 
 .about p.intro {
   font-style: italic;
-  color: #4CAF50; /* Accent color for intro */
+  color: #4CAF50; 
   font-size: 20px;
-  /* margin-bottom: 25px; */
 }
 
 @media (max-width: 768px) {

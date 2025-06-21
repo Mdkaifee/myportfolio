@@ -1,8 +1,7 @@
-/* frontend/src/components/Header.css */
 header {
     position: sticky;
     top: 0;
-    background-color: rgba(0, 0, 0, 0.8);  /* Transparent background */
+    background-color: rgba(0, 0, 0, 0.8);  
     color: white;
     padding: 20px;
     z-index: 100;
@@ -10,7 +9,7 @@ header {
   }
   
   header.sticky {
-    background-color: #333;  /* Darken the background when scrolled */
+    background-color: #333;  
   }
   
   header .logo {

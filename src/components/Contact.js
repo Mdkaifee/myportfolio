@@ -62,8 +62,6 @@ const Contact = () => {
         ></textarea>
         <button type="submit">Send Message</button>
       </form>
-
-      {/* Status message display */}
       {statusMessage && <div className="status-message">{statusMessage}</div>}
     </section>
   );

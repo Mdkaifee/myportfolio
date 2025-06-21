@@ -12,26 +12,12 @@ const Projects = () => {
           <p>✅ Helps golfers and caddies book a game for golf play</p>
           <p>✅ Find available tee times and connect with caddies</p>
           <p>✅ Streamlined booking process and user-friendly interface</p>
-          {/* <a
-            href="https://github.com/Mdkaifee/ShackApp.git"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            View Project
-          </a> */}
         </div>
         <div className="project-item">
           <h3>RareImpacts - React Native App</h3>
           <p>✅ Discover information about rare diseases and conditions</p>
           <p>✅ Read about precautionary measures, cures, and symptoms</p>
           <p>✅ User-friendly app with search and categorization features</p>
-          {/* <a
-            href="https://github.com/Mdkaifee/RareImpacts.git"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            View Project
-          </a> */}
         </div>
         <div className="project-item">
   <h3>Zepto Clone (Frontend)</h3>
@@ -65,13 +51,6 @@ const Projects = () => {
   <p>✅ Developed RESTful APIs using FastAPI (Python) for a role-based user management system</p>
   <p>✅ Implemented features like user authentication, file upload handling, and CRUD operations</p>
   <p>✅ Integrated with MySQL database using SQLAlchemy and followed a modular structure for scalability</p>
-  {/* <a
-    href="https://github.com/Mdkaifee/IRH-Backend.git"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    View Project
-  </a> */}
 </div>
         <div className="project-item">
   <h3>My Portfolio (Frontend)</h3>
