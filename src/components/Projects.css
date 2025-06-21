@@ -2,9 +2,12 @@
 
 .projects {
   padding: 60px 20px;
-  background: url('https://www.example.com/your-image.jpg') center/cover no-repeat;
+  background-image: url('https://www.example.com/your-image.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   position: relative;
-  color: white; /* Text color should contrast with the background */
+  color: white;
 }
 
 .projects::before {
