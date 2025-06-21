@@ -79,20 +79,13 @@ const Projects = () => {
   <p>✅ Built using React.js with modular components</p>
   <p>✅ Smooth scroll, section navigation, and clean UI/UX</p>
 
-  <div style={{
-    display: 'flex',
-    justifyContent: 'space-between',
-    gap: '10px',
-    marginTop: '10px'
-  }}>
+  <div style={{ marginTop: '10px', display: 'flex', justifyContent: 'flex-start' }}>
     <a
       href="https://github.com/Mdkaifee/myportfolio"
       target="_blank"
       rel="noopener noreferrer"
       style={{
-        flex: 1,
-        textAlign: 'center',
-        padding: '8px 0',
+        padding: '8px 16px',
         backgroundColor: '#4caf50',
         color: 'white',
         borderRadius: '5px',
@@ -102,25 +95,9 @@ const Projects = () => {
     >
       View Project
     </a>
-    <a
-      href="https://md-kaifee-portfolio.onrender.com/"
-      target="_blank"
-      rel="noopener noreferrer"
-      style={{
-        flex: 1,
-        textAlign: 'center',
-        padding: '8px 0',
-        backgroundColor: '#4caf50',
-        color: 'white',
-        borderRadius: '5px',
-        textDecoration: 'none',
-        fontWeight: '500'
-      }}
-    >
-      Live On
-    </a>
   </div>
 </div>
+
 
        <div className="project-item">
   <h3>Backend of My Portfolio</h3>
