@@ -9,7 +9,7 @@ const Contact = () => {
       <h2>Contact Me</h2>
 
       {state.succeeded ? (
-        <p className="status-message">Thanks for your message!</p>
+        <p className="status-message">Thanks for your message! You will get in touch soon.</p>
       ) : (
         <form onSubmit={handleSubmit}>
           <input
