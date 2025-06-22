@@ -51,7 +51,7 @@ const Projects = () => {
   <p>✅ Integrated with MySQL database using SQLAlchemy and followed a modular structure for scalability</p>
 </div>
         <div className="project-item">
-  <h3>My Portfolio (Frontend)</h3>
+  <h3>My Portfolio</h3>
   <p>✅ Fully responsive portfolio website to showcase my work</p>
   <p>✅ Built using React.js with modular components</p>
   <p>✅ Smooth scroll, section navigation, and clean UI/UX</p>
