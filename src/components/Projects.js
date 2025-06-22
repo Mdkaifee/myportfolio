@@ -74,58 +74,6 @@ const Projects = () => {
     </a>
   </div>
 </div>
-
-
-       <div className="project-item">
-  <h3>Backend of My Portfolio</h3>
-  <p>✅ Built with Node.js to handle backend requests</p>
-  <p>✅ Receives and processes user queries sent via email</p>
-  <p>✅ Implements email sending functionality to handle contact form submissions</p>
-
-  <div style={{
-    display: 'flex',
-    justifyContent: 'space-between',
-    gap: '10px',
-    marginTop: '10px'
-  }}>
-    <a
-      href="https://github.com/Mdkaifee/my_backend"
-      target="_blank"
-      rel="noopener noreferrer"
-      style={{
-        flex: 1,
-        textAlign: 'center',
-        padding: '8px 0',
-        backgroundColor: '#4caf50',
-        color: 'white',
-        borderRadius: '5px',
-        textDecoration: 'none',
-        fontWeight: '500'
-      }}
-    >
-      View Project
-    </a>
-    <a
-      href="https://md-kaifee-portfolio.onrender.com/"
-      target="_blank"
-      rel="noopener noreferrer"
-      style={{
-        flex: 1,
-        textAlign: 'center',
-        padding: '8px 0',
-        backgroundColor: '#4caf50',
-        color: 'white',
-        borderRadius: '5px',
-        textDecoration: 'none',
-        fontWeight: '500'
-      }}
-    >
-      Live On
-    </a>
-  </div>
-</div>
-
-
        <div className="project-item">
   <h3>FriendSphere Chatting App</h3>
   <p>✅ Real-time chat application built using Python and Django (backend and frontend in a single project)</p>
