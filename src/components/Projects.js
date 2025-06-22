@@ -27,23 +27,55 @@ const Projects = () => {
     target="_blank"
     rel="noopener noreferrer"
   >
-    View Project
+    Source Code
   </a>
 </div>
-
 <div className="project-item">
   <h3>Zepto Clone (Backend)</h3>
   <p>✅ Developed using Node.js and MongoDB to handle authentication, product management, and orders</p>
   <p>✅ Created RESTful APIs for user registration, login, product retrieval, cart operations, and payment processing</p>
   <p>✅ Ensured smooth integration with frontend and third-party services like Razorpay</p>
+<div
+  style={{
+    display: 'flex',
+    marginTop: '10px',
+  }}
+>
   <a
     href="https://github.com/Mdkaifee/ZeptoCloneBackend.git"
     target="_blank"
     rel="noopener noreferrer"
+    style={{
+      padding: '8px 16px',
+      backgroundColor: '#4caf50',
+      color: 'white',
+      borderRadius: '5px',
+      fontWeight: '500',
+      textDecoration: 'none',
+    }}
   >
-    View Project
+    Source Code
+  </a>
+  <a
+    href="https://zeptoclonebackend.onrender.com/"
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{
+      marginLeft: 'auto',
+      padding: '8px 16px',
+      backgroundColor: '#4caf50',
+      color: 'white',
+      borderRadius: '5px',
+      fontWeight: '500',
+      textDecoration: 'none',
+    }}
+  >
+   Live at
   </a>
 </div>
+
+</div>
+
        <div className="project-item">
   <h3>IRH-Backend</h3>
   <p>✅ Developed RESTful APIs using FastAPI (Python) for a role-based user management system</p>
@@ -70,23 +102,55 @@ const Projects = () => {
         fontWeight: '500'
       }}
     >
-      View Project
+      Source Code
     </a>
   </div>
 </div>
-       <div className="project-item">
+     <div className="project-item">
   <h3>FriendSphere Chatting App</h3>
   <p>✅ Real-time chat application built using Python and Django (backend and frontend in a single project)</p>
   <p>✅ Enables users to chat instantly and view online status of friends</p>
   <p>✅ Integrated Django templates for UI and WebSocket support for live messaging</p>
-  <a
-    href="https://github.com/Mdkaifee/FirstDjango"
-    target="_blank"
-    rel="noopener noreferrer"
+  <div
+    style={{
+      display: 'flex',
+      marginTop: '10px',
+    }}
   >
-    View Project
-  </a>
-</div> 
+    <a
+      href="https://github.com/Mdkaifee/FirstDjango"
+      target="_blank"
+      rel="noopener noreferrer"
+      style={{
+        padding: '8px 16px',
+        backgroundColor: '#4caf50',
+        color: 'white',
+        borderRadius: '5px',
+        fontWeight: '500',
+        textDecoration: 'none',
+      }}
+    >
+      Source Code
+    </a>
+    <a
+      href="https://friendsphere-chatapp.onrender.com/"
+      target="_blank"
+      rel="noopener noreferrer"
+      style={{
+        marginLeft: 'auto',
+        padding: '8px 16px',
+        backgroundColor: '#4caf50',
+        color: 'white',
+        borderRadius: '5px',
+        fontWeight: '500',
+        textDecoration: 'none',
+      }}
+    >
+      Live at
+    </a>
+  </div>
+</div>
+
       </div>
     </section>
   );
