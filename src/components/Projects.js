@@ -22,13 +22,13 @@ const Projects = () => {
   <p>✅ Built a responsive grocery ordering app using Flutter to mimic the user experience of Zepto</p>
   <p>✅ Features include product listing, user authentication, cart management, and order placement</p>
   <p>✅ Integrated Razorpay for online payments and support for Cash on Delivery (COD)</p>
-  <a
+  {/* <a
     href="https://github.com/Mdkaifee/ZeptoClonFrontend.git"
     target="_blank"
     rel="noopener noreferrer"
   >
     Source Code
-  </a>
+  </a> */}
 </div>
 <div className="project-item">
   <h3>Zepto Clone (Backend)</h3>
@@ -41,7 +41,7 @@ const Projects = () => {
     marginTop: '10px',
   }}
 >
-  <a
+  {/* <a
     href="https://github.com/Mdkaifee/ZeptoCloneBackend.git"
     target="_blank"
     rel="noopener noreferrer"
@@ -55,7 +55,7 @@ const Projects = () => {
     }}
   >
     Source Code
-  </a>
+  </a> */}
   <a
     href="https://zeptoclonebackend.onrender.com/"
     target="_blank"
@@ -81,6 +81,58 @@ const Projects = () => {
   <p>✅ Developed RESTful APIs using FastAPI (Python) for a role-based user management system</p>
   <p>✅ Implemented features like user authentication, file upload handling, and CRUD operations</p>
   <p>✅ Integrated with MySQL database using SQLAlchemy and followed a modular structure for scalability</p>
+    <div
+    style={{
+      display: 'flex',
+      marginTop: '10px',
+    }}
+  >
+  <a
+      href="https://portal.irhliving.com/signin/?secure=true"
+      target="_blank"
+      rel="noopener noreferrer"
+      style={{
+        padding: '8px 16px',
+        backgroundColor: '#4caf50',
+        color: 'white',
+        borderRadius: '5px',
+        marginLeft: 'auto', 
+        textDecoration: 'none',
+        fontWeight: '500'
+      }}
+    >
+      Live at
+    </a>
+</div>
+</div>
+       <div className="project-item">
+  <h3>Property Fusion-Backend</h3>
+  <p>✅ Developed RESTful APIs using FastAPI (Python) for a role-based user management system</p>
+  <p>✅ Implemented features like user authentication, file upload handling, and CRUD operations</p>
+  <p>✅ Integrated with MySQL database using SQLAlchemy and followed a modular structure for scalability</p>
+   <div
+    style={{
+      display: 'flex',
+      marginTop: '10px',
+    }}
+  >
+  <a
+      href="http://dev.propertyfusion.io/"
+      target="_blank"
+      rel="noopener noreferrer"
+      style={{
+        padding: '8px 16px',
+        backgroundColor: '#4caf50',
+        color: 'white',
+        marginLeft: 'auto', 
+        borderRadius: '5px',
+        textDecoration: 'none',
+        fontWeight: '500'
+      }}
+    >
+      Live at
+    </a>
+</div>
 </div>
         <div className="project-item">
   <h3>My Portfolio</h3>
@@ -89,7 +141,7 @@ const Projects = () => {
   <p>✅ Smooth scroll, section navigation, and clean UI/UX</p>
 
   <div style={{ marginTop: '10px', display: 'flex', justifyContent: 'flex-start' }}>
-    <a
+    {/* <a
       href="https://github.com/Mdkaifee/myportfolio"
       target="_blank"
       rel="noopener noreferrer"
@@ -103,9 +155,39 @@ const Projects = () => {
       }}
     >
       Source Code
+    </a> */}
+  </div>
+</div>
+<div className="project-item">
+  <h3>Attendance App</h3>
+  <p>✅ Built a real-time attendance tracking app using Flutter and Firebase Realtime Database</p>
+  <p>✅ Implemented role-based check-in and check-out logic with duration calculation</p>
+  <p>✅ Stored attendance logs in the cloud and displayed them using interactive UI with Material Design</p>
+  <div
+    style={{
+      display: 'flex',
+      marginTop: '10px',
+    }}
+  >
+    <a
+      href="https://github.com/Mdkaifee/flutter-attendance-app"  // 🔁 Replace this with your actual repo or demo link
+      target="_blank"
+      rel="noopener noreferrer"
+      style={{
+        padding: '8px 16px',
+        backgroundColor: '#4caf50',
+        color: 'white',
+        marginLeft: 'auto',
+        borderRadius: '5px',
+        textDecoration: 'none',
+        fontWeight: '500'
+      }}
+    >
+      Live at
     </a>
   </div>
 </div>
+
      <div className="project-item">
   <h3>FriendSphere Chatting App</h3>
   <p>✅ Real-time chat application built using Python and Django (backend and frontend in a single project)</p>
@@ -117,7 +199,7 @@ const Projects = () => {
       marginTop: '10px',
     }}
   >
-    <a
+    {/* <a
       href="https://github.com/Mdkaifee/FirstDjango"
       target="_blank"
       rel="noopener noreferrer"
@@ -131,7 +213,7 @@ const Projects = () => {
       }}
     >
       Source Code
-    </a>
+    </a> */}
     <a
       href="https://friendsphere-chatapp.onrender.com/"
       target="_blank"
